@@ -16,6 +16,9 @@ def draw_boundary(img, classifier, scaleFactor, minNeighbors, color, text, clf):
         if id==1:
             cv2.putText(img, "Amogh", (x, y-4), cv2.FONT_HERSHEY_SIMPLEX, 1, color, 2, cv2.LINE_AA)
             print("Amogh")
+        if id==2:
+            cv2.putText(img, "Hardik", (x, y-4), cv2.FONT_HERSHEY_SIMPLEX, 1, color, 2, cv2.LINE_AA)
+            print("Hardik")
         coords = [x, y, w, h]
 
     return coords
